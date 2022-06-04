@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.common {
+  width: 100%;
+  display: flex;
+}
+.breakfast-section {
+  width: 40%;
+  height: 630px;
+  background-color: rgb(240, 238, 236);
+}
+.breakfast-picture {
+  width: 60%;
+  height: 630px;
+  background-image: url("https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/ae355404c7e1540d9c6afb89/pexels-photo-4346328.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (max-width: 768px) {
+  .common {
+    display: block;
+  }
+  .breakfast-section {
+    width: 100%;
+    height: 300px;
+  }
+  .breakfast-picture {
+    width: 100%;
+    height: 400px;
+  }
+  .breakfast-section-details button{
+ 
+    position:relative;
+  bottom:10%;
+   }
+.breakfast-section-details p{
+line-height: 1.5;
+}
+}
+footer {
+  width: 100%;
+  height: 70px;
+  background-color: rgb(75, 72, 72);
+}
+.breakfast-section p {
+  color: grey;
+  font-size: 18px;
+  line-height: 1.8;
+  margin-top: 100px;
+}
+.breakfast-section button {
+  margin-top: 60px;
+  padding: 10px 50px;
+  border: 2px solid grey;
+  background-color: white;
+}
+.breakfast-section button:hover {
+  transition: 0.3s;
+  color: white;
+  background-color: rgb(228, 187, 138);
+  border: none;
+}
+.breakfast-section-details {
+  width: 90%;
+  height: 600px;
+  text-align: center;
+  
+  align-items: center;
+  position:relative;
+  left:5%;
+}
+.breakfast-section-details h1 {
+  top: 90px;
+  position:relative;
+}
